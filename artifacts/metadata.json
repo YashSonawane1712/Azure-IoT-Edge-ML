@@ -1,0 +1,20 @@
+{
+  "model_name": "edgesense-air-quality-risk",
+  "version": "1.0.0",
+  "features": [
+    "temperature",
+    "humidity",
+    "pm25",
+    "pm10",
+    "co2",
+    "voc"
+  ],
+  "classes": [
+    "High",
+    "Low",
+    "Moderate"
+  ],
+  "test_accuracy": 0.977,
+  "dataset": "synthetic classroom sensor data",
+  "important_note": "Synthetic labels demonstrate the pipeline; this is not a certified AQI model."
+}

@@ -1,0 +1,7 @@
+services:
+  edgesense:
+    build: .
+    container_name: edgesense-iot-ml
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
